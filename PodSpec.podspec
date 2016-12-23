@@ -1,12 +1,12 @@
 Pod::Spec.new do |s|
   s.name         = "PodSpec"
   s.version      = "1.0.1"
-  s.summary      = "podspec Test."
+  s.summary      = "podspecTest."
   s.homepage     = "https://github.com/HeavenDoor/PodSpec"
   s.license      = "MIT"
-  s.author       = { "shenghai" => "shenghairen@gmail.com" }
-  s.platform     = :ios, "7.0"
+  s.author       = {"shenghai" => "shenghairen@gmail.com" }
+  s.ios.deployment_target='7.0'
   s.source       = { :git => "https://github.com/HeavenDoor/PodSpec.git", :tag => s.version }
-  s.source_files = "HelloPodSpec/HelloPodSpec.{h,m}"
+  s.source_files = "PodSpec/HelloPodSpec.{h,m}"
   s.requires_arc = true
 end
